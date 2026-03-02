@@ -6,6 +6,7 @@ import Cart from './pages/cart'
 import { useFishStore } from './store'
 
 
+
 function App() {
     
     const {fishies,prodFetch} = useFishStore()
