@@ -1,10 +1,10 @@
 import React from 'react'
+import Navbar from '../companentas/navbar'
 
 function Store() {
-  return (
-    <div>
-      
-    </div>
+    return (
+ 
+    <Navbar />
   )
 }
 
