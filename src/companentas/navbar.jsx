@@ -12,7 +12,7 @@ function Navbar() {
         </div>
        <div>
         <Link className='nav' id='sh' to="/">Shop</Link>
-        <Link className='nav' id='ca' to="cart">Cart {count}</Link>
+        <Link className='nav' id='ca' to="/cart">Cart {count}</Link>
        </div>
     </div>
   )

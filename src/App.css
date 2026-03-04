@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 14rem;
+    height: 13rem;
     padding: 1rem;
 }
 
@@ -97,4 +97,29 @@
     width: 105%;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
+}
+
+.btc{
+   width: 5rem;
+   font-size: 0.6rem;
+   height: 2rem;
+   border-radius: 0.6rem;
+   border: 0;
+   background-color: black;
+   color: white;
+}
+
+.btcb{
+    background-color: #F2EDE2;
+    color: black;
+    width: 5rem;
+    font-size: 0.6rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    border: 0;
+}
+
+#prc{
+    display: flex;
+    justify-content: space-between;
 }
