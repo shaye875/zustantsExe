@@ -2,6 +2,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 96vw;
   height: 95vw;
+  background-color: #F4E1C2;
 }

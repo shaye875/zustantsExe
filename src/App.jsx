@@ -8,8 +8,7 @@ import { useFishStore } from './store'
 
 
 function App() {
-    
-    const {fishies,prodFetch} = useFishStore()
+    const {prodFetch} = useFishStore()
     useEffect(()=>{
       prodFetch()
     },[])
