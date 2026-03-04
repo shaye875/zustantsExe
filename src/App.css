@@ -112,7 +112,7 @@
 .btcb{
     background-color: #F2EDE2;
     color: black;
-    width: 5rem;
+    width: 7rem;
     font-size: 0.6rem;
     height: 2rem;
     border-radius: 0.6rem;
@@ -122,4 +122,46 @@
 #prc{
     display: flex;
     justify-content: space-between;
+}
+
+#crc{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.7rem;
+    padding: 0.9rem;
+}
+
+#aln{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    width: 75%;
+}
+
+#exn{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Cart{
+    width: 105%;
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+#ord{
+    background-color: white;
+    height: 7rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 1rem;
 }

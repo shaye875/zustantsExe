@@ -30,7 +30,7 @@ function Card({ props }) {
             e.target.className = "btc"
             remcart(props)
           }
-        })}>{!props.buy && <div>Add to cart</div>}{props.buy && <div>Remove from card</div>}</button>
+        })}>{!props.buy && <div>Add to cart</div>}{props.buy && <div>Remove from card</div>}{}</button>
       </div>
     </div>
   )
